@@ -16,12 +16,19 @@ outdoor2 = input("I'm good with tying knots and ropes.")
 
 music2 = input("I play a musical instrument well.")
 
+tech3 = input("I take a liking to gadgets and technology.")
 
-tech_final = int(tech1) + int(tech2)
-outdoor_final = int(outdoor1) + int(outdoor2)
-music_final = int(music1)+ int(music2)
+outdoor3 = input("I prefer being with nature rather than being at home and sitting around.")
 
-print()
+music3 = input("I often enjoy listening to music in my free time.)
+
+tech4 = input("I tinker or play around with gadgets often")
+
+tech_final = int(tech1) + int(tech2) + int(tech3)
+outdoor_final = int(outdoor1) + int(outdoor2) + int(outdoor3)
+music_final = int(music1)+ int(music2)+ int(music3)
+
+print("You are finally done with the survey! Please wait for your results to be revealed.")
 
 if tech_final > outdoor_final and tech_final > music_final:
   print("You might be suitable for Infocomm club!")
